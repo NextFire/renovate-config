@@ -1,0 +1,21 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "customManagers": [
+    {
+      "customType": "regex",
+      "fileMatch": [".*\\.ts$"],
+      "matchStrings": [
+        "import .*\"(?<depName>https://.*)@(?<currentValue>[^/]*).*\";"
+      ],
+      "datasourceTemplate": "deno"
+    },
+    {
+      "customType": "regex",
+      "fileMatch": [".*\\.ts$"],
+      "matchStrings": [
+        "import .*\"https://raw\\.githubusercontent\\.com/(?<depName>[^/]+/[^/]+)/(?<currentValue>[^/]+).*\";"
+      ],
+      "datasourceTemplate": "github-tags"
+    }
+  ]
+}
