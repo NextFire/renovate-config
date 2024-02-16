@@ -2,11 +2,17 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended",
-    ":automergeStableNonMajor",
     ":automergePatch",
     ":automergeDigest",
     ":automergeBranch",
     ":maintainLockFilesWeekly",
     "regexManagers:dockerfileVersions"
+  ],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor"],
+      "matchCurrentVersion": ">= 1.0.0",
+      "automerge": true
+    }
   ]
 }
