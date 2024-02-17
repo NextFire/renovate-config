@@ -1,5 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Japan7 default configuration for Renovate",
   "extends": [
     "config:recommended",
     ":automergePatch",

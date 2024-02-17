@@ -1,5 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Helper preset for Deno projects",
   "customManagers": [
     {
       "customType": "regex",
