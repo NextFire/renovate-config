@@ -15,5 +15,14 @@
       "matchCurrentVersion": ">= 1.0.0",
       "automerge": true
     }
-  ]
+  ],
+  "customDatasources": {
+    "wolfi": {
+      "defaultRegistryUrlTemplate": "https://raw.githubusercontent.com/wolfi-dev/versions/main/version_streams/{{ packageName }}.yaml",
+      "format": "yaml",
+      "transformTemplates": [
+        "{\"releases\": $map($.status.versions, function($v) { { \"version\": $v.version } }) }"
+      ]
+    }
+  }
 }
