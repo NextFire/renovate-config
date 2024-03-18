@@ -1,0 +1,11 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Helper preset for Python apps projects",
+  "packageRules": [
+    {
+      "matchDepTypes": ["dependencies"],
+      "excludePackageNames": ["python"],
+      "rangeStrategy": "pin"
+    }
+  ]
+}

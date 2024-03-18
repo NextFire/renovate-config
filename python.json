@@ -6,6 +6,10 @@
       "matchPackageNames": ["python"],
       "matchUpdateTypes": ["major", "minor"],
       "automerge": false
+    },
+    {
+      "matchDepTypes": ["dev"],
+      "rangeStrategy": "pin"
     }
   ]
 }
