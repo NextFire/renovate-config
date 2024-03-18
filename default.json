@@ -1,7 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "description": "Japan7 default configuration for Renovate",
-  "configMigration": true,
   "extends": [
     "config:recommended",
     ":automergePatch",
@@ -10,6 +9,7 @@
     ":maintainLockFilesWeekly",
     "regexManagers:dockerfileVersions"
   ],
+  "configMigration": true,
   "packageRules": [
     {
       "matchUpdateTypes": ["minor"],
