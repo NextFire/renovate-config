@@ -3,7 +3,7 @@
   "description": "Helper preset for Python projects",
   "packageRules": [
     {
-      "matchPackageNames": ["python"],
+      "matchDepNames": ["python"],
       "matchUpdateTypes": ["major", "minor"],
       "automerge": false
     },

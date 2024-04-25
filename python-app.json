@@ -4,7 +4,7 @@
   "packageRules": [
     {
       "matchDepTypes": ["dependencies"],
-      "excludePackageNames": ["python"],
+      "excludeDepNames": ["python"],
       "rangeStrategy": "pin"
     }
   ]
