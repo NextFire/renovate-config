@@ -10,9 +10,6 @@
     "regexManagers:dockerfileVersions"
   ],
   "configMigration": true,
-  "nix": {
-    "enabled": true
-  },
   "packageRules": [
     {
       "matchUpdateTypes": ["minor"],
