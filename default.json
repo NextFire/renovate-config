@@ -6,7 +6,7 @@
     ":automergePatch",
     ":automergeDigest",
     ":automergeBranch",
-    ":maintainLockFilesWeekly",
+    ":maintainLockFilesMonthly",
     "regexManagers:dockerfileVersions"
   ],
   "configMigration": true,
