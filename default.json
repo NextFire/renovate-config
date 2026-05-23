@@ -10,7 +10,7 @@
     "regexManagers:dockerfileVersions"
   ],
   "configMigration": true,
-  "minimumReleaseAge": "7 days",
+  "minimumReleaseAge": "2 days",
   "minimumReleaseAgeBehaviour": "timestamp-optional",
   "packageRules": [
     {
