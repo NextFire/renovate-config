@@ -12,6 +12,7 @@
   "configMigration": true,
   "minimumReleaseAge": "2 days",
   "minimumReleaseAgeBehaviour": "timestamp-optional",
+  "osvVulnerabilityAlerts": true,
   "packageRules": [
     {
       "matchUpdateTypes": ["minor"],
