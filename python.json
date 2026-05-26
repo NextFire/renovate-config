@@ -10,6 +10,11 @@
     {
       "matchDepTypes": ["dev"],
       "rangeStrategy": "pin"
+    },
+    {
+      "groupName": "PyTorch dependencies",
+      "groupSlug": "pytorch",
+      "matchDepNames": ["torch", "torchaudio", "torchcodec", "torchvision"]
     }
   ]
 }
